@@ -1,0 +1,26 @@
+** TAMANO VIEWPORT y BREAKPOINTS **
+
+Estamos diseñando la página para un ancho máximo de 600px —es el ancho que pusieron en el breakpoints.css del drive para celulares—
+
+Podríamos hacer dos breakpoints más (y, por lo tanto, dos media queries más):
+- uno para pantallas de un ancho mínimo de 768px (tablets y celus grandes)
+- otro para pantallas de un ancho mínimo de 992px (laptop, compu escritorio)
+
+Es decir, habría que considerar incluir estos media queries:
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+
+Ejemplo, para que un div solo abarque desde las filas 1 a 2 en pantallas grandes habría que poner:
+
+@media screen and (min-width: 992px) {
+    .grid-row: 1/2; 
+}
+
+-----------------------------------
