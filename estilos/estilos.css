@@ -37,8 +37,8 @@ body{
 }
 
 .contenedor .encabezado{
-    background: darkblue;
-    color: #fff;
+    background: #333652;
+    color: #E9EAEC;
     grid-area: encabezado; 
 }
 
@@ -57,7 +57,7 @@ body{
 }
 
 .contenedor .widget-1{
-    background-color: lightblue;
+    background-color: #8C3839;
     color: #000;
     height: 100px;
     /*utilizamos flexbox para alinear el contenido*/
@@ -67,7 +67,7 @@ body{
 }
 
 .contenedor .widget-2{
-    background: red;
+    background:#90ADC6;
     color: #000;
     height: 100px;
     /*utilizamos flexbox para alinear el contenido*/
@@ -85,8 +85,8 @@ body{
 }
 
 .contenedor .pie{
-    background: darkblue;
-    color: #fff;
+    background: #333652;
+    color:  #E9EAEC;
     grid-area: pie; 
 }
 
@@ -108,3 +108,5 @@ body{
                              "widget-2 widget-2 widget-2"
                              "sidebar sidebar sidebar"
                              "pie pie pie";
+                            }
+                        }
