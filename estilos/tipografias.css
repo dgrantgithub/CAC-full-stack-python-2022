@@ -4,6 +4,7 @@ h1 {
     font-family: 'Allura', cursive, 'Lucida Console';
     font-size: 6vw; /* tamaño responsivo, 6% del viewport window */
     text-align: center;
+    color: #E9EAEC;
 }
 
 h2 {

@@ -24,3 +24,12 @@ Ejemplo, para que un div solo abarque desde las filas 1 a 2 en pantallas grandes
 }
 
 -----------------------------------
+
+Paleta de colores
+
+Celeste federal: #90ADC6
+Bordo unitario: #8C3839
+Claro, casi blanco: #E9EAEC
+Clarito, entre marrón y amarillo: #F0DFC8
+Azul oscuro: #333652
+Mostaza: #FAD02C
