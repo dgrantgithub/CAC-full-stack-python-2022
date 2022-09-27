@@ -1,4 +1,7 @@
+/* Google fonts cuya combinacion generé con https://fontjoy.com/ */
 @import url('https://fonts.googleapis.com/css2? family = Allura & display = swap');
+@import url('https://fonts.googleapis.com/css2? family=Almendra:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Roboto+Slab&display=swap');
 
 h1 {
     font-family: 'Allura', cursive, 'Lucida Console';
@@ -7,12 +10,12 @@ h1 {
     color: #E9EAEC;
 }
 
-h2 {
-
+h3 {
+    font-family: 'Almendra', 'Lucida Console';
+    font-size: 4vw
 }
 
-h4
-
-h5
-
-h6
+h4 {
+    font-family: 'Roboto Slab', Roboto;
+    font-size: 3vw;
+}
