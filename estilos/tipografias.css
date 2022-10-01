@@ -5,7 +5,8 @@
 
 h1 {
     font-family: 'Allura', cursive, 'Lucida Console';
-    font-size: 3vw; /* tamaño responsivo, 6% del viewport window */
+    font-size: 3vw;
+    /* tamaño responsivo, 6% del viewport window */
     text-align: center;
     color: #E9EAEC;
 }
@@ -28,17 +29,19 @@ h4 {
     grid-template-columns: 50% 50%;
     height: 5vw;
     padding: 1%;
-    background-color: aliceblue; /* le puse este color para verlo nomás */
+    background-color: aliceblue;
+    /* le puse este color para verlo nomás */
 }
 
 .item-encabezado2 {
     text-align: right;
-    
+
 }
 
 .item-encabezado1 {
     font-family: 'Allura', cursive, 'Lucida Console';
-    font-size: 3vw; /* tamaño responsivo, 6% del viewport window */
+    font-size: 3vw;
+    /* tamaño responsivo, 6% del viewport window */
     text-align: center;
     color: #E9EAEC;
 }
@@ -46,9 +49,8 @@ h4 {
 .lista-encabezado1 {
     list-style-type: none;
     padding: 2%;
-  }
+}
 
-  .lista-encabezado2 {
+.lista-encabezado2 {
     display: inline;
-  }
-
+}
