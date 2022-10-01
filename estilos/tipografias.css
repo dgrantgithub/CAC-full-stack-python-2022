@@ -5,7 +5,7 @@
 
 h1 {
     font-family: 'Allura', cursive, 'Lucida Console';
-    font-size: 6vw; /* tamaño responsivo, 6% del viewport window */
+    font-size: 3vw; /* tamaño responsivo, 6% del viewport window */
     text-align: center;
     color: #E9EAEC;
 }
@@ -19,3 +19,36 @@ h4 {
     font-family: 'Roboto Slab', Roboto;
     font-size: 3vw;
 }
+
+/* header común a todas las páginas */
+/* podría estar hecho con flex porque tiene solo 1 dir */
+
+.container-encabezado {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 5vw;
+    padding: 1%;
+    background-color: aliceblue; /* le puse este color para verlo nomás */
+}
+
+.item-encabezado2 {
+    text-align: right;
+    
+}
+
+.item-encabezado1 {
+    font-family: 'Allura', cursive, 'Lucida Console';
+    font-size: 3vw; /* tamaño responsivo, 6% del viewport window */
+    text-align: center;
+    color: #E9EAEC;
+}
+
+.lista-encabezado1 {
+    list-style-type: none;
+    padding: 2%;
+  }
+
+  .lista-encabezado2 {
+    display: inline;
+  }
+
