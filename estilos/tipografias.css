@@ -5,8 +5,7 @@
 
 h1 {
     font-family: 'Allura', cursive, 'Lucida Console';
-    font-size: 3vw;
-    /* tamaño responsivo, 6% del viewport window */
+    font-size: 3vw; /* tamaño responsivo, 3% del viewport window */
     text-align: center;
     color: #E9EAEC;
 }
@@ -21,7 +20,7 @@ h4 {
     font-size: 3vw;
 }
 
-/* header común a todas las páginas */
+/* HEADER común a todas las páginas */
 /* podría estar hecho con flex porque tiene solo 1 dir */
 
 .container-encabezado {
@@ -29,28 +28,51 @@ h4 {
     grid-template-columns: 50% 50%;
     height: 5vw;
     padding: 1%;
-    background-color: aliceblue;
+    background-color: #333652;
     /* le puse este color para verlo nomás */
 }
 
-.item-encabezado2 {
-    text-align: right;
-
-}
-
-.item-encabezado1 {
+.item1-encabezado {
     font-family: 'Allura', cursive, 'Lucida Console';
-    font-size: 3vw;
+    font-size: 4vw;
     /* tamaño responsivo, 6% del viewport window */
     text-align: center;
     color: #E9EAEC;
 }
 
-.lista-encabezado1 {
+.item2-encabezado {
+    text-align: right;
+    color: #E9EAEC;
+
+}
+
+.lista-encabezado {
     list-style-type: none;
     padding: 2%;
 }
 
 .lista-encabezado2 {
     display: inline;
+}
+
+/* Texto superpuesto al BANNER */
+.textBanner { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Almendra', 'Lucida Console';
+    font-size: 7.7vw;
+    font-weight: bold;
+}
+
+a {color: #E9EAEC;}
+
+/* Contenedor 1, página "Nosotros" */
+
+.conten1 > div {
+    padding: 3vw 15vw 0.1vw 15vw;
+    font-size: 3vw;
+    text-align: justify;
+    
 }
