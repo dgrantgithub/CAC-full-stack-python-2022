@@ -12,30 +12,29 @@ h1 {
 
 h3 {
     font-family: 'Almendra', 'Lucida Console';
-    font-size: 4vw
+    font-size: 3vw;
 }
 
 h4 {
-    font-family: 'Roboto Slab', Roboto;
-    font-size: 3vw;
+    font-family: 'Roboto Slab', 'Roboto';
+    font-size: 2.5vw;
 }
 
 /* HEADER común a todas las páginas */
 /* podría estar hecho con flex porque tiene solo 1 dir */
-
 .container-encabezado {
     display: grid;
     grid-template-columns: 50% 50%;
     height: 5vw;
+    width: 100%;
     padding: 1%;
     background-color: #333652;
-    /* le puse este color para verlo nomás */
 }
 
 .item1-encabezado {
     font-family: 'Allura', cursive, 'Lucida Console';
     font-size: 4vw;
-    /* tamaño responsivo, 6% del viewport window */
+    /* tamaño responsivo, 4% del viewport window */
     text-align: center;
     color: #E9EAEC;
 }
@@ -43,17 +42,34 @@ h4 {
 .item2-encabezado {
     text-align: right;
     color: #E9EAEC;
-
 }
 
-.lista-encabezado {
-    list-style-type: none;
-    padding: 2%;
+nav { padding: 2%; }
+
+/* FOOTER común a todas las páginas */
+.container-pie {
+    display: grid;
+    grid-template-rows: 2;
+    height: 40vw;
+    padding: 1%;
+    background-color: #333652
 }
 
-.lista-encabezado2 {
-    display: inline;
+.subcontenedor-pie {
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
+
+.subcontenedor-pie > div > h5 {
+    line-height:  5vw;
+    color: #E9EAEC;
+    font-family: 'Roboto Slab', 'Roboto';
+}
+
+.subcontenedor-pie > div > h5 > img { filter: invert(100%); } /* cambia el color de los íconos de negro a blanco */
+
+
+
 
 /* Texto superpuesto al BANNER */
 .textBanner { 
