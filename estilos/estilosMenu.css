@@ -10,6 +10,8 @@ body{
         rgba(0,0,0,0.5)
     )
     ,url(/imagenes/Clarke\ &\ Clarke\ Metallica\ Rose\ Gold\ Fabric\ -\ Trade\ -\ Clarke\ &\ Clarke\ Metallica\ Rose\ Gold\ Fabric\ _\ METALLICA\ _\ ROSE\ GOLD.jpg);
+    color: #E9EAEC;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -20,7 +22,7 @@ h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.3em;}
 span{
-    color: yellow;
+    color: #FAD02C;
 }
 
 #principio{
@@ -99,15 +101,24 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url();
+    ,url(/imagenes/Wooden\ Textures\ ·\ Pexels.png);
 
     background-position: center center;
     background-size: cover;
     border-radius: 15px;
 }
 
+.menu:hover{
+    border: 3px solid #FAD02C;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transform: scale(1.05,1.05);
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+
 hr{
-    background: yellow;
+    background: #FAD02C;
     height: 1.5px;
     width: 50px;
     border: none;
