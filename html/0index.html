@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="/estilos/estilos.css"> <!-- mirar cómo afecta a header y footer -->
     <link rel="stylesheet" href="/estilos/tipografias.css">
 
     <title>Unitarios & Federales</title>
@@ -14,40 +14,74 @@
 
 <body>
 
+    <!-- HEADER -->
     <header id="idheader"></header>
 
+    <!-- BANNER -->
     <div style="text-align: center; position: relative">
         <img src="/img/home/banner.jpg" alt="lienzo rojo y azul" width="100%" style="opacity: 90%;">
-        <div class="textBanner">Unitarios y Federales<br><br> <p style="font-size: 4vw;"> Comida para todos los gustos</p></div>
+        <div class="textBanner">Unitarios y Federales<br><br>
+            <p style="font-size: 4vw;"> Comida para todos los gustos</p>
+        </div>
 
     </div>
 
+    <main>
 
-    <div class="contenedor">
-        <main class="contenido">
-            <h1>Acá iría el slider de imágenes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatibus sit quam vitae maiores
-                impedit aut, repellendus nesciunt, odit porro nostrum. Cumque id porro fugit enim amet tempore
-                cupiditate, autem dignissimos suscipit dolorum saepe aspernatur, laborum molestiae. Optio consequatur ex
-                distinctio quis qui, rem consectetur placeat reprehenderit ipsum, itaque at enim sint unde. Est fugiat
-                maiores sapiente amet. Ducimus, rem reiciendis esse soluta obcaecati eius sunt, sequi similique
-                voluptates, deleniti mollitia magni nisi eaque? Ipsum asperiores facilis neque doloremque? Qui,
-                reiciendis, aut illum quis dolorem eos omnis recusandae expedita facilis vitae nostrum ad, animi
-                molestiae! Tempore sint enim ullam odio!
-            </p>
-        </main>
-        <div class="widget-1">
-            <h3>PLATOS UNITARIOS</h3> <br>
-            <h4>Menú</h4>
-        </div>
-        <div class="widget-2">
-            <h3>MORFI FEDERAL</h3> <br>
-            <h4>Qué hay</h4>
-        </div>
-    </div>
+        <!-- REDIRECCIONAMIENTOS A OTRAS PAGS -->
+        <section id="redir">
+            <div class="conten1home">
 
-    <footer id="idfooter"></footer>
+                <div class="redir">
+                    <a href="/html/1menu.html">Menú</a>
+                    <img src="/img/home/parrilla.webp" alt="">
+                </div>
+
+                <div class="redir">
+                    <a href="/html/2nosotros.html">Nosotros</a>
+                    <img src="/img/home/nosotros.webp" alt="">
+                </div>
+
+                <div class="redir">
+                    <a href="/html/3contacto.html">Contactanos</a>
+                    <img src="/img/home/contactanos.jpeg" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BOTON DE RESERVAS -->
+        <section id="reservas">
+            <button><a href="/html/3contacto.html">Reservas</a></button>
+        </section>
+
+        <!-- SLIDESSHOW DE IMAGENES -->
+        <section id="slider">
+
+            <div class="slideshow">
+                <img src="" alt="">
+            </div>
+            <div class="slideshow">
+                <img src="" alt="">
+            </div>
+            <div class="slideshow">
+                <img src="" alt="">
+            </div>
+            <div class="slideshow">
+                <img src="" alt="">
+            </div>
+            <div class="slideshow">
+                <img src="" alt="">
+            </div>
+            
+
+        </section>
     
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="idfooter"></footer>
+
     <script src="/js/headerfooter.js"></script>
 </body>
 
