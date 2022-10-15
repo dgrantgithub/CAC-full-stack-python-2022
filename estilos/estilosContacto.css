@@ -1,37 +1,86 @@
-.contenedor{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: #444;
-    margin: 50px 30px;
+*{
+    box-sizing: border-box;
 }
 
-.form{
-    min-width: 400px;
-    flex: 1;
+body{
+    background: #333652;
+    color: #E9EAEC;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenido{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+h1{
     text-align: center;
-    padding: 30px;
+    font-size: 3em;
 }
 
-.input{
-    width: 90%;
-    padding: 6px;
-    margin: 4px 0;
+.wrap{
+    box-shadow: 0 0 20px 0 rgba(255,255,255,0.3);
 }
 
-.form textarea{
-    min-height: 100px;
+.wrap > *{
+    padding: 1.5em;
 }
 
-.imagen{
-    flex: 1;
-    display: flex;
+.formulario form textarea,
+.formulario form input,
+.formulario form button{
+    width: 100%;
+    padding: 0.7em;
+    margin: 0.8em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #8C3839;
+    color: #E9EAEC
 }
 
-.imagen img{
-    width: 30%;
-    margin: auto;
-    padding: 200px;
-    border-radius: 20%;
+.formulario form button{
+    background: #8C3839;
+    color: #E9EAEC;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1.3em;
+}
+
+.formulario form button:hover{
+    background-color: rgb(160, 56, 57);
+    border: 1px solid #FAD02C;
+}
+
+.formulario form textarea:hover,
+.formulario form input:hover,
+.formulario form button:hover{
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.formulario form textarea{
+    resize: none;
+    height: 5em;
+}
+
+.formulario{
+    background: #2f314b;
+}
+
+.input,
+.largo {
+    padding: 0.5em 1em;
+}
+
+
+@media (min-width: 768px){
+    .formulario form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .formulario form .largo{
+        grid-column: 1/3;
+    }
 }
