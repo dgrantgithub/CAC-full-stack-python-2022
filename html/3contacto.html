@@ -15,39 +15,39 @@
 
             <div class="wrap">
                 <div class="formulario">
-                    <form>
+                    <form name="form">
                         <div class="input">
                             <label>Nombre: </label>
-                            <input type="text">
+                            <input type="text" name="nombre">
                         </div>
 
                         <div class="input">
                             <label>Apellido: </label>
-                            <input type="text">
+                            <input type="text" name="apellido">
                         </div>
 
                         <div class="input">
                             <label>Número Telefónico: </label>
-                            <input type="number">
+                            <input type="number" name="numero">
                         </div>
 
                         <div class="input">
                             <label>Email: </label>
-                            <input type="text">
+                            <input type="text" name="email">
                         </div>
 
                         <div class="input">
                             <label>Asunto: </label>
-                            <input type="text">
+                            <input type="text" name="asunto">
                         </div>
 
                         <div class="largo">
                             <label>Mensaje: </label>
-                            <textarea></textarea>
+                            <textarea name="mensaje"></textarea>
                         </div>
 
                         <div class="largo">
-                            <button type="submit">Enviar</button>
+                            <button type="submit" id="boton">Enviar</button>
                         </div>
 
                     </form>
@@ -55,6 +55,9 @@
             </div>
 
         </div>
-    </section>    
+    </section>   
+
+    <script src="/js/validacionformulario.js"></script>
+
 </body>
 </html>
