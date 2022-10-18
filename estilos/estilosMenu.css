@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2? family = Allura & display = swap');
+@import url('https://fonts.googleapis.com/css2? family=Almendra:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Roboto+Slab&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -6,8 +10,8 @@ body{
     margin: 0;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     )
     ,url(/img/menu/Clarke\ &\ Clarke\ Metallica\ Rose\ Gold\ Fabric\ -\ Trade\ -\ Clarke\ &\ Clarke\ Metallica\ Rose\ Gold\ Fabric\ _\ METALLICA\ _\ ROSE\ GOLD.jpg);
     color: #E9EAEC;
@@ -51,7 +55,7 @@ span{
 }
 
 header{
-    background-color: #F0DFC8;
+    background-color: #333652;
 }
 
 header .logo{
@@ -60,7 +64,8 @@ header .logo{
     padding: 10px 30px;
     padding-bottom: 0;
     font-size: 1em;
-    color: #90ADC6;
+    font-family: 'Allura', cursive, 'Lucida Console';
+    color: #E9EAEC;
 }
 
 header .container{
@@ -80,7 +85,7 @@ header a{
     padding: 5px 10px;
     text-decoration: none;
     font-weight: bold;
-    color: #90ADC6;
+    color: #E9EAEC;
 }
 
 header a:hover{
@@ -100,19 +105,12 @@ header a:hover{
 }
 
 .menu{
+    transform: scale(1,1);
+    transition-duration: 0.5s;
     color: #fff;
     text-align: center;
     display: flex;
     flex-flow: column;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url(/img/menu/Wooden\ Textures\ ·\ Pexels.png);
-
-    background-position: center center;
-    background-size: cover;
     border-radius: 15px;
 }
 
