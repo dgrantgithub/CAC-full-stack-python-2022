@@ -6,6 +6,80 @@
     box-sizing: border-box;
 }
 
+
+/* HEADER común a todas las páginas */
+
+header *{
+    margin: 0;
+    padding: 7px;
+}
+
+header p{
+    font-size: 1.3em;
+}
+
+header{
+    background-color: #333652;
+}
+
+header .logo{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    padding-bottom: 0;
+    font-size: 1em;
+    font-family: 'Allura', cursive, 'Lucida Console';
+    color: #E9EAEC;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #E9EAEC;
+}
+
+header a:hover{
+    color:#8C3839;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+@media (min-width: 768px){
+    header{
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+}
+
+/* ------------------------------- */
+
 body{
     margin: 0;
     background-image: linear-gradient(
@@ -46,50 +120,6 @@ span{
     ,url(/img/menu/elpatio\ 27.jpg);
     background-position: center center;
     background-size: cover;
-}
-
-
-.container{
-    max-width: 1440px;
-    margin: auto;
-}
-
-header{
-    background-color: #333652;
-}
-
-header .logo{
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 10px 30px;
-    padding-bottom: 0;
-    font-size: 1em;
-    font-family: 'Allura', cursive, 'Lucida Console';
-    color: #E9EAEC;
-}
-
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-}
-
-header a{
-    padding: 5px 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #E9EAEC;
-}
-
-header a:hover{
-    color:#8C3839;
 }
 
 .wrap{
@@ -210,25 +240,5 @@ hr{
 @media (max-width: 768px){
     .grid{
         grid-template-columns: repeat(1,1fr);
-    }
-}
-
-
-
-
-@media (min-width: 768px){
-    header{
-        width: 100%;
-    }
-
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 10px;
     }
 }

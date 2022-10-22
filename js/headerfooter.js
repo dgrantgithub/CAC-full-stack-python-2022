@@ -1,20 +1,14 @@
 let header = `
-    
-    <div class="container-encabezado">
-        
-        <div class="item1-encabezado">
-            <p>Unitarios & Federales</p>
-        </div>
-        
-        <div class="item2-encabezado">    
-            <nav>
-                <a href="/html/0index.html">Home</a>
-                <a href="/html/1menu.html">Menú</a>
-                <a href="/html/3contacto.html">Contacto</a>
-            </nav>
-        </div>
-
+<header>
+    <div class="container">
+        <a href="0index.html" class="logo"><p>Unitarios & Federales</p></a>
+        <nav>
+            <a href="1menu.html">Menú</a>
+            <a href="2nosotros.html">Sobre Nosotros</a>
+            <a href="3contacto.html">Contacto</a>
+        </nav>
     </div>
+</header>
 `
 document.getElementById("idheader").innerHTML = header
 

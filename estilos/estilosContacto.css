@@ -1,6 +1,83 @@
+@import url('https://fonts.googleapis.com/css2? family = Allura & display = swap');
+@import url('https://fonts.googleapis.com/css2? family=Almendra:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Roboto+Slab&display=swap');
+
 *{
     box-sizing: border-box;
 }
+
+/* HEADER común a todas las páginas */
+
+header *{
+    margin: 0;
+    padding: 7px;
+}
+
+header p{
+    font-size: 1.3em;
+}
+
+header{
+    background-color: #333652;
+}
+
+header .logo{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    padding-bottom: 0;
+    font-size: 1em;
+    font-family: 'Allura', cursive, 'Lucida Console';
+    color: #E9EAEC;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #E9EAEC;
+}
+
+header a:hover{
+    color:#8C3839;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+@media (min-width: 768px){
+    header{
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+}
+
+/* ------------------------------- */
 
 body{
     background: #333652;
@@ -36,12 +113,7 @@ p{font-size: 1.3em;}
     flex-direction: column;
     height: 50vh;
     color: #E9EAEC;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.2),
-        rgba(0,0,0,0.2)
-    )
-    ,url(/img/contacto/fondoprincipiocontactanos.jpg);
+    background-image: url(/img/contacto/fondoprincipiocontactanos.jpg);
     background-position: center center;
     background-size: cover;
 

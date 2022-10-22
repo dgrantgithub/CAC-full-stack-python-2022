@@ -33,28 +33,75 @@ h4 {
 
 /* ------------------------------- */
 /* HEADER común a todas las páginas */
-.container-encabezado {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    height: 5vh;
-    max-width: 100%;
-    padding: 1%;
+header *{
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+header p{
+    font-size: 1.3em;
+}
+
+header{
     background-color: #333652;
 }
-.item1-encabezado {
+
+header .logo{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    padding-bottom: 0;
+    font-size: 1em;
     font-family: 'Allura', cursive, 'Lucida Console';
-    font-size: 3vh; /* tamaño responsivo, 3% del viewport height */
-    text-align: center;
     color: #E9EAEC;
 }
-.item2-encabezado {
-    text-align: center;
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
     color: #E9EAEC;
 }
-nav > a { margin-right: 3vw; }
-nav > a:hover { color: #10111c; }
-nav { padding: 2%; }
+
+header a:hover{
+    color:#8C3839;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+@media (min-width: 768px){
+    header{
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+}
+
 /* ------------------------------- */
 /* FOOTER común a todas las páginas */
 .container-pie {
