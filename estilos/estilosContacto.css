@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2? family=Almendra:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2? family=Roboto+Slab&display=swap');
 
-*{
-    box-sizing: border-box;
-}
-
 /* HEADER común a todas las páginas */
 
-header *{
+*{
     margin: 0;
+}
+
+header *{
     padding: 7px;
 }
 
@@ -78,6 +77,62 @@ header a:hover{
 }
 
 /* ------------------------------- */
+/* FOOTER común a todas las páginas */
+.container-pie {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 20% 80%;
+    height: 12vh;
+    padding: 1%;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.container-pie *{
+    margin: 0;
+    padding: 0;
+}
+
+.container-pie h4 {
+    font-family: 'Roboto Slab', 'Roboto';
+    font-size: 2.5vw;
+}
+
+.item1-pie{
+    align-items: center;
+}
+
+.item2-pie{
+    align-items: center;
+}
+
+.subcontenedor-pie {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.subcontenedor-pie > div > h5 {
+    line-height:  2vh;
+    color: #E9EAEC;
+    font-family: 'Roboto Slab', 'Roboto';
+}
+
+.subcontenedor-pie > div > h5 > img { filter: invert(100%); } /* cambia el color de los íconos de negro a blanco de iconos */
+
+.copyright{
+    text-align: center;
+    padding: 15px 10px;
+    width: 100%;
+    background-color: #3c4061;
+}
+
+.item0-pie > h4{
+    color: #E9EAEC;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* ------------------------------- */
 
 body{
     background: #333652;
@@ -101,6 +156,7 @@ h1{
 h2{
     font-size: 2.7em;
     text-align: center;
+    margin-bottom: 0.6em;
 }
 h3{font-size: 2em;}
 p{font-size: 1.3em;}
@@ -192,5 +248,24 @@ p{font-size: 1.3em;}
 
     .formulario form .largo{
         grid-column: 1/3;
+    }
+}
+
+/* ------------------------------- */
+/* FOOTER */
+@media screen and (min-width: 992px) {
+    .container-pie {
+        padding: 2%;
+        margin-bottom: 0;
+    }
+    .subcontenedor-pie {grid-template-columns: 40% 60%; }
+    .item1-pie {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    .item2-pie {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        align-items: center;
     }
 }
