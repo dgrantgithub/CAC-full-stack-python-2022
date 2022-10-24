@@ -124,7 +124,8 @@ a {color: #E9EAEC;}
 
 #reservas{
     padding: 3vh 10vw 9vh 10vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -133,9 +134,19 @@ a {color: #E9EAEC;}
 }
 
 #reservas > button {
-    padding: 5vh 15vw;
+    padding: 5vh 11vw;
+    text-align: center;
     background-color: #24263d;
-    border: 1vw outset #24263d; 
+    border: 1vw outset #24263d;
+}
+
+#resena {
+    text-align: center;
+    color: #E9EAEC;
+    padding: 0vh 0vw;
+    background-color:#24263d;
+    border: 0.06vw inset black;
+    border-radius: 1vw;
 }
 
 /* slideshow */
