@@ -8,7 +8,7 @@
             let cliente = [];
             for (let i = 0; i<data.length; i++){
                 cliente[i] = `<div class="usuario">
-                <img src="${data[i].avatar}" width="100px" class="img-fluid rounded-circle">
+                <img src="${data[i].avatar}" width="100vw" class="img-fluid rounded-circle">
                 <p>Cliente: ${data[i].name}</p>
                 <p>Opinión: ${data[i].review}</p>
                 </div>`
