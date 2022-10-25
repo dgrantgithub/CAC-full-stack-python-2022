@@ -214,17 +214,18 @@ a:hover{
 }
 
 #reservas > button {
-    padding: 3vh 5vw;
+    padding: 5vh 5vw;
     text-align: center;
     background-color: #24263d;
     border: 1vw outset #24263d;
-    font-size: 4vw;
+    font-size: 2vw;
     font-family: 'Allura', cursive, 'Roboto';
 }
 
 #sand {
     text-align: right; 
-    padding-top: 8vw; 
+    padding-top: 0vw;
+    padding-right: 1vw; 
     font-size: 3vw;
 }
 
