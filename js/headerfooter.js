@@ -1,7 +1,7 @@
 let header = `
 <header>
     <div class="container">
-        <a href="0index.html" class="logo"><p>Unitarios & Federales</p></a>
+    <a href="index.html" class="logo"><p>Unitarios & Federales</p></a>
         <nav>
             <a href="1menu.html">Menú</a>
             <a href="2nosotros.html">Sobre Nosotros</a>
