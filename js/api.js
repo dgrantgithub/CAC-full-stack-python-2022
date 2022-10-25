@@ -10,7 +10,7 @@
                 cliente[i] = `<div class="usuario">
                 <img src="${data[i].avatar}" width="100vw" class="img-fluid rounded-circle">
                 <p>Cliente: ${data[i].name}</p>
-                <p>Opinión: ${data[i].review}</p>
+                <p>Puntaje: ${data[i].punt}/100</p>
                 </div>`
             }
             document.getElementById("resena").innerHTML = cliente.join('');
