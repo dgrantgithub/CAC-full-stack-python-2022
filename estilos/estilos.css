@@ -116,10 +116,12 @@ header a:hover{
 
 .item1-pie{
     align-items: center;
+    font-size: 1.2vw;
 }
 
 .item2-pie{
     align-items: center;
+    font-size: 1.2vw;
 }
 
 .subcontenedor-pie {
